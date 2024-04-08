@@ -1,0 +1,71 @@
+#img{
+    width: 100vw;
+    height: 160vh;
+    background-image:url(/assets/trees.jpg);
+    background-size:cover;
+    padding-top: 40px;
+filter
+    :drop-shadow(8px 8px 4px #ead4d4);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.custom-shape-divider-bottom-1692700210 {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1692700210 svg {
+position: relative;
+display: block;
+width: calc(167% + 1.3px);
+height: 385px;
+}
+
+.custom-shape-divider-bottom-1692700210 .shape-fill {
+fill: #FFFFFF;
+}
+
+.btn1{
+    display: flex;
+    height: 2em;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #d4fbf7;
+}
+
+.btn1 :hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }
+
+   #home-pg{
+     border: solid 1px #414141;
+     padding: 17%;
+     
+   }
+   #about-pg{
+    // border: solid 2px #d4fbf7;
+    
+    padding: 1%;
+    width: 1000px;
+    
+  }
+
+  .home-txt{
+    color: #002a56;
+  }

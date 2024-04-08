@@ -1,0 +1,18 @@
+<div class="container">
+    <h1 class="text-center my-3">Set Your Todo Tasks </h1>
+
+    <app-add-todo (todoAdd)="addTodo($event)"></app-add-todo>
+    <h4>Your Todos</h4>
+    <!-- if waha pr 0 todo hai to "No Todos to Display" aayenga using ngif directive -->
+    <div *ngIf="this.todos.length===0; else elseBlock" class="No-Todos"><i>No Todos to Display</i></div>
+    <ng-template #elseBlock>  
+
+        <div *ngFor="let todo of todos; index as i">
+            <!-- todo-item component me todo pass kr diya  -->
+            <app-todo-item [todo]="todo" [i]="i" (todoCheckbox)="CheckTodo($event)"
+                (todoDelete)="deleteTodo($event)"></app-todo-item>
+
+        </div>
+    </ng-template>
+
+</div>
