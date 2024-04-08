@@ -1,0 +1,15 @@
+<div class="my-3"></div>
+
+<!-- h5 & p tag todo aad karne pr show honge -->
+<!-- if hamare task complete ho gaye, to fr hum check box pr click karenge then h5 & p tag par strike aa jayengi -->
+<!-- @Input() todo!: Todo; <==ye input decorator ke wjh se yaha todo accept hua (from todo-item.com.ts file) -->
+<h5 [ngClass]="{'strike': !todo.active}">{{todo.title}}</h5>
+<p [ngClass]="{'strike': !todo.active}">{{todo.desc}}</p>
+
+<div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="todo{{i}}" (click)="oncheckboxClick(todo)"
+        [checked]="!todo.active">
+    <label class="form-check-label" for="todo{{i}}">Done</label>
+</div>
+<!-- ye hamare task ko delete karne ke liye h -->
+<button class="btn btn-sm btn-danger" (click)="onClick(todo)">Delete</button>    
