@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "image": "assets/images/buds3.jpg",
+      "title": "Buds 14 pro",
+      "description": "buds Pro, 1 Yr Warranty with Bill.",
+      "quantity": 4,
+      "originalPrice": 1200,
+      "discount": 60,
+      "finalPrice":1140
+    },
+    {
+      "id": 2,
+      "image": "assets/images/buds.jpg",
+      "title": "Buds",
+      "description": "Sound quality is too good",
+      "quantity": 8,
+      "originalPrice": 1000,
+      "discount": 100,
+      "finalPrice": 900
+    },
+    {
+        "id": 3,
+        "image": "assets/images/buds5.jpg",
+        "title": "Buds pro",
+        "description": "this product is quite good.",
+        "quantity": 4,
+        "originalPrice": 1500,
+        "discount": 90,
+        "finalPrice": 1410
+      },
+      {
+        "id": 4,
+        "image": "assets/images/buds3.jpg",
+        "title": "Vivo V20",
+        "description": "  Vivo V27 Price in India 2023, Full Specs & Sale Date | Smartprix.",
+        "quantity": 2,
+        "originalPrice": 22000,
+        "discount": 1000,
+        "finalPrice": 21000
+      },
+      {
+        "id": 5,
+        "image": "assets/images/headphone3.jpg",
+        "title": "Headphone",
+        "description": "this product is very good.",
+        "quantity": 4,
+        "originalPrice": 2100,
+        "discount": 200,
+        "finalPrice": 1900
+      },
+      {
+        "id": 6,
+        "image": "assets/images/hp.jpg",
+        "title": "hp 15",
+        "description": "this product is very good.",
+        "quantity": 4,
+        "originalPrice": 45000,
+        "discount": 2000,
+        "finalPrice": 43000
+      },
+      {
+        "id": 7,
+        "image": "assets/images/hp2.jpg",
+        "title": "HP Laptop",
+        "description": " HP Laptop Pro 256 GB,  1 Yr Warranty with Bill – Design Info.",
+        "quantity": 4,
+        "originalPrice": 120000,
+        "discount": 6000,
+        "finalPrice":114000
+      },
+      {
+        "id": 8,
+        "image": "assets/images/buds.jpg",
+        "title": "Buds",
+        "description": "Sound quality is too good",
+        "quantity": 8,
+        "originalPrice": 1000,
+        "discount": 100,
+        "finalPrice": 900
+      },
+      {
+          "id": 9,
+          "image": "assets/images/buds5.jpg",
+          "title": "Buds pro",
+          "description": "this product is quite good.",
+          "quantity": 4,
+          "originalPrice": 1500,
+          "discount": 90,
+          "finalPrice": 1410
+        },
+        {
+          "id": 10,
+          "image": "assets/images/apple2.jpg",
+          "title": "Vivo V20",
+          "description": "  Vivo V27 Price in India 2023, Full Specs & Sale Date | Smartprix.",
+          "quantity": 2,
+          "originalPrice": 22000,
+          "discount": 1000,
+          "finalPrice": 21000
+        },
+        {
+          "id": 11,
+          "image": "assets/images/headphone3.jpg",
+          "title": "Headphone",
+          "description": "this product is very good.",
+          "quantity": 4,
+          "originalPrice": 2100,
+          "discount": 200,
+          "finalPrice": 1900
+        },
+        {
+          "id": 13,
+          "image": "assets/images/hp.jpg",
+          "title": "hp 15",
+          "description": "this product is very good.",
+          "quantity": 4,
+          "originalPrice": 45000,
+          "discount": 2000,
+          "finalPrice": 43000
+        }
+
+  ]
